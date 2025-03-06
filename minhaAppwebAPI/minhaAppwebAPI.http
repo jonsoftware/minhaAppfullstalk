@@ -1,0 +1,6 @@
+@minhaAppwebAPI_HostAddress = http://localhost:5039
+
+GET {{minhaAppwebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
