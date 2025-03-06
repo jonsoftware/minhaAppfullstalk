@@ -12,6 +12,7 @@ namespace WebApi.Infraestrutura
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Company> Company { get; set; }
 
+        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
           => optionsBuilder.UseNpgsql(
               "Server=localhost;" +
@@ -20,3 +21,5 @@ namespace WebApi.Infraestrutura
               "Password=123;");
     }
 }
+
+// testando meu git hub no git push
